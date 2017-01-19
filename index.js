@@ -9,6 +9,18 @@ return document.querySelector('#nested .target')
 /*The ID selector consists of a hash/pound symbol (#), followed by the ID name of a given element.*/
 /*The class selector consists of a dot, '.', followed by a class name. A class name is any value without spaces put within an HTML class attribute.*/
 /*Here we are selecting an ID (nested) of the class (target). Nested is a type of target.*/
+/*returns the first value that matches the class of target under the ID of nested*/
+
+/*document.querySelector('.nested #target')
+  returns <div id="target">
+                1
+              </div>
+*/
+
+/*document.querySelector('#nested .target') returns<div class="target">
+              1
+            </div>
+the id and class don't matter for this example. ID, class, element are CSS specific things that warrant more study as to the specific differences between them.*/
 }
 
 function deepestChild() {
